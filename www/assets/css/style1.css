@@ -1,0 +1,133 @@
+body
+{
+    font-family: sans-serif;
+    color: #3c3939;
+    background-color: #f1f1f1;
+    margin: 0;
+}
+.profile-card
+{
+    width: 450px;
+    margin: 10px;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    float: left;
+}
+.image-container
+{
+    position: relative;
+}
+.info
+{
+    color: #d81e05;
+    margin-right: 16px;
+    margin-left: 3px;
+}
+.main-container
+{
+    padding: 20px;
+}
+.interesse-container
+{
+    width: 700px;
+    margin: 10px;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    padding: 20px;
+    float: left;
+    height: 400px;
+}
+
+.over-mij-container{
+    float: left;
+    width: 600px;
+    margin: 10px;
+    height: 400px;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    padding: 20px;
+
+}
+.interesse-bar
+{
+    background-color: gray;
+    border-radius: 16px;
+}
+.hoeveelheid-bar
+{
+    padding: 0.1em 16px;
+    border-radius: 16px;
+    text-align: center;
+    color: white;
+    background-color: #d81e05;
+
+}
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+#over-mij-head{
+    position: sticky;
+    z-index: 999;
+}
+.hoofd-container{
+    margin: 40px;
+}
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.mySlides {display:none;}

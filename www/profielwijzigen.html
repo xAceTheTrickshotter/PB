@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/style1.css">  <title> Wijzigen </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+
+    <script
+            src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+    <link href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+    <!--     Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+
+
+    <!--        Cloud-->
+    <script src="https://cdn.fys.cloud/fyscloud/0.0.3/fyscloud.bundle.min.js"></script>
+    <!--    <link rel="stylesheet" href="/dist/css/home.3936e940d1f89da49f72.css"/>-->
+    <!---->
+    <script src="assets/js/config.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/mainstyle.css">
+    <script src="assets/js/homepagina.js"></script>
+
+    <script src="https://kit.fontawesome.com/77cda3941f.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+</head>
+<body>
+<script src="assets/js/alles.js"></script>
+<div class="navbar-wrapper"></div>
+<br>
+<div class="profile-card">
+    <div class="image-container">
+        <img src="assets/img/Proffototest.png" style="width: 100%">
+        <div class="title">
+            <h2>Test Persoon</h2>
+        </div>
+    </div>
+    <div class="main-container">
+
+        <p><i class="fas fa-birthday-cake info"></i> Leeftijd
+        <form action="/action_page.php">
+            <label for="fname"></label>
+            <input type="text" id="fname" name="firstname" placeholder="Geboortedatum..(ongewijzigd)">
+    </form></p>
+        <p><i class="fas fa-building info"></i> Woonplaats
+        <form action="/action_page.php">
+            <label for="wnplaats"></label>
+            <input type="text" id="wnplaats" name="wnplaats" placeholder="Woonplaats..(ongewijzigd)">
+        </form></p>
+        <p><i class="fas fa-briefcase info"></i> Werk
+        <form action="/action_page.php">
+            <label for="werk"></label>
+            <input type="text" id="werk" name="werk" placeholder="Uw werk.. (ongewijzigd)">
+        </form></p>
+        <p><i class="fas fa-star info"></i> Favo vakantieland
+        <form action="/action_page.php">
+            <label for="favo-land"></label>
+            <input type="text" id="favo-land" name="favo-land" placeholder="Favoriete vakantieland..(ongewijzigd)">
+        </form></p>
+        <p><i class="fas fa-phone-alt info"></i>Telefoonnummer
+        <form action="/action_page.php">
+            <label for="telefoonnummer"></label>
+            <input type="text" id="telefoonnummer" name="telefoonnummer" placeholder="Uw telefoonnummer..(ongewijzigd)">
+        </form></p>
+        <p><i class="fas fa-envelope info"></i>E-mail
+        <form action="/action_page.php">
+            <label for="e-mail"></label>
+            <input type="text" id="e-mail" name="e-mail" placeholder="E-mail..(ongewijzigd)">
+        </form></p>
+        <hr>
+    </div>
+</div>
+<div class="over-mij-container">
+    <p id="over-mij-head" > <b><i class="fa fa-asterisk info"></i> Over mij:</b></p>
+    <div style="overflow-y: auto; max-height: 300px;">
+        <textarea class="w3-input w3-border" placeholder="Over mij.. (Ongewijzigd)" style="width: 100%; height: 300px"></textarea>
+    </div>
+    <hr>
+</div>
+</div>
+<div class="interesse-container">
+    <p><b><i class="fa fa-asterisk info"></i> Interesses <button style="float: right; background-color: #d81e05" onclick="window.location.href='interesses.html'"
+                                                                 class="button"><span>Interesses wijzigen </span></button></b></p>
+    <p>Sportvakantie</p>
+    <div class="interesse-bar">
+        <div class="hoeveelheid-bar" style="width: 80%"> 80%</div>
+    </div>
+
+    <p>Rust vakantie</p>
+    <div class="interesse-bar">
+        <div class="hoeveelheid-bar" style="width: 35%"> 35%
+        </div>
+    </div>
+
+    <p>Zon vakantie</p>
+    <div class="interesse-bar">
+        <div class="hoeveelheid-bar" style="width: 90%"> 90%
+        </div>
+    </div>
+
+    <p>Wintersport vakantie</p>
+    <div class="interesse-bar">
+        <div class="hoeveelheid-bar" style="width: 15%"> 15%
+        </div>
+    </div>
+    <hr>
+</div>
+<button style="background-color: red; margin-left: 100px" onclick="window.location.href='profoverzicht.html'"
+        class="button"><span>Annuleren </span></button>
+<button style="background-color: green" onclick="window.location.href='profoverzicht.html'"
+        class="button"><span>Wijzigingen opslaan </span></button>
+
+
+</div>
+</div>
+</div>
+</body>
+</html>

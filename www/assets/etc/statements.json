@@ -1,0 +1,61 @@
+{
+  "0": {
+    "key": "groupSize",
+    "description": "Met hoeveel mensen wilt u maximaal in een groep reizen?",
+    "statements": {
+      "a": {
+        "statement": "Ik ga het liefste op reis met weining anderen",
+        "value": "Small"
+      },
+      "b": {
+        "statement": "Ik ga het liefste op reis met veel anderen",
+        "value": "Large"
+      }
+    }
+  },
+
+  "1": {
+    "key": "vacationType",
+    "description": "Bent u een avonturen of een culturele reiziger?",
+    "statements": {
+      "a": {
+        "statement": "Ik neem graag de cultuur tot mij toe",
+        "value": "Culture"
+      },
+      "b": {
+        "statement": "Ik ga graag op avontuur",
+        "value": "Adventure"
+      }
+    }
+  },
+
+  "2": {
+    "key": "vacationActivity",
+    "description": "Wanneer je op vakantie gaat, onderneem je dan graag iets?",
+    "statements": {
+      "a": {
+        "statement": "Ik houd van een rustige vakantie",
+        "value": "Relax"
+      },
+      "b": {
+        "statement": "Ik houd van een actieve vakantie",
+        "value": "Active"
+      }
+    }
+  },
+
+  "3": {
+    "key": "vacationSeason",
+    "description": "Als je op vanantie gaat, ga je dan graag naar een zonnige of winter bestemming",
+    "statements": {
+      "a": {
+        "statement": "Het liefste ga ik naar een zonnige paradijs",
+        "value": "Summer"
+      },
+      "b": {
+        "statement": "Het liefste ga ik naar een winter wonderland",
+        "value": "Winter"
+      }
+    }
+  }
+}
