@@ -9,48 +9,10 @@ $(document).ready(() => {
         return filename;
     }
 
-
-    let rechterKant = "<li class=\"nav-item navbarHover\">\n" +
-        "      <a class=\"nav-link\"  href=\"login.html\">Login</a>\n" +
-        "    </li>\n" +
-        "    <li class=\"nav-item navbarHover\">\n" +
-        "      <a class=\"nav-link\" href=\"registreer.html\">Registreer</a>\n" +
-        "    </li>\n"
-
-    if(FYSCloud.Session.get("isLogged")) {
-      let name = FYSCloud.Session.get("name");
-
-name=name.charAt(0).toUpperCase() + name.slice(1);
-        rechterKant =
-          "  <li class=\"nav-item navbarHover\">\n" +
-          "  <a class=\"nav-link\"  href=\"login.html\">Log Uit</a>\n" +
-          "</li>\n" +
-         " <div class=\"btn-group\">\n" +
-        "<button type=\"button\" class=\"btn btn-danger dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n" +
-        name +
-        "</button>\n" +
-        "  <div class=\"dropdown-menu\">\n" +
-        "    <a class=\"dropdown-item\" href=\"profoverzicht.html\">Profiel</a>\n" +
-        "  <a class=\"dropdown-item\" style=\"border-top: 1px solid rgba(0,0,0,.15); border-bottom: 1px solid rgba(0,0,0,.15);\" href=\"interesses.html\">Interesses</a>\n" +
-          "    <a class=\"dropdown-item\" href=\"matchbestemming.html\">Matches</a>\n" +
-        "</div>\n" +
-    "  </div>";
-    }
-
-
-    $(".navbar-wrapper").append("<div>\n" +
-        "    <img src=\"assets/img/corendon-logo.svg\" style=\"width: 250px; margin: 10px;\">\n" +
-        "    <div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">\n" +
-        "        Berichtgeving rondom het Coronavirus:\n" +
-        "        <a class=\"coronaText\" href=\"https://www.corendon.nl/welcome\" id=\"coronaText\"> corendon.nl/welcome</a> &\n" +
-        "        <a class=\"coronaText\" href=\"https://www.corendon.nl/klantenservice/blog/2020/02/26/coronavirus/\" id=\"coronaText\">FAQ.</a>\n" +
-        "        Alles over je reisvoucher vind je <a class=\"coronaText\" href=\"https://www.corendon.nl/reisvoucher\" id=\"coronaText\">hier</a>.\n" +
-        "        Lees alle maatregelen via de volgende links:\n" +
-        "        <a class=\"coronaText\" href=\"https://www.corendon.nl/klantenservice/blog/2020/06/11/maatregelen-op-bestemming/\" id=\"coronaText\">bestemming</a>,\n" +
-        "        <a class=\"coronaText\" href=\"https://www.corendon.nl/verantwoord-reizen\" id=\"coronaText\"> luchthaven en vlucht</a>\n" +
-        "        <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n" +
-        "            <span aria-hidden=\"true\">&times;</span>\n" +
-        "        </button>\n" +
+    $(".navbar-wrapper").append("<div class=\"quote\">\n" +
+        "    <h1 class=quoteText> “By far the best proof is experience” \n"+
+        "<br> \n "+
+        "- Francis Bacon </h1>\n" +
         "    </div>\n" +
         "</div>\n" +
         "\n" +
@@ -67,25 +29,48 @@ name=name.charAt(0).toUpperCase() + name.slice(1);
         "        <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">\n" +
         "            <!-- Links -->\n" +
         "            <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">\n" +
-        "                 <li class=\"nav-item active navbarHover\">\n" +
+        "                 <li class=\"nav-item  navbarHover\">\n" +
         "                    <a class=\"nav-link\" href=\"index.html\">Home</a>\n" +
         "                </li>\n" +
         "                 <li class=\"nav-item navbarHover\">\n" +
-        "                    <a class=\"nav-link\" href=\"matchbestemming.html\">Matches</a>\n" +
+        "                    <a class=\"nav-link\" href=\"wiebenik.html\">Wie ben ik</a>\n" +
         "                </li>\n" +
+        "                 <li class=\"nav-item navbarHover\">\n" +
+        "                    <a class=\"nav-link\" href=\"watkanik.html\">Wat kan ik</a>\n" +
+        "                </li>\n" +
+        "                 <li class=\"nav-item navbarHover\">\n" +
+        "                    <a class=\"nav-link\" href=\"watwilik.html\">Wat wil ik</a>\n" +
+        "                </li>\n" +
+        "                 <li class=\"nav-item navbarHover\">\n" +
+        "                    <a class=\"nav-link\" href=\"matchbestemming.html\">Conctact</a>\n" +
+        "                </li>\n" +
+        
         "                <li class=\"nav-item navbarHover\">\n" +
         "                    <a class=\"nav-link\" href=\"https://www.corendon.nl/\">Corendon</a>\n" +
         "                </li>\n" +
         "            </ul>\n" +
         "\n" +
         "            <ul class=\"navbar-nav\">\n" +
-                rechterKant +
         "\n" +
         "            </ul>\n" +
         "        </div>\n" +
         "    </nav>\n" +
         "\n" +
         "</header>");
+
+        
+
+        //"    <div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">\n" +
+        //"        Berichtgeving rondom het Coronavirus:\n" +
+        //"        <a class=\"coronaText\" href=\"https://www.corendon.nl/welcome\" id=\"coronaText\"> corendon.nl/welcome</a> &\n" +
+        //"        <a class=\"coronaText\" href=\"https://www.corendon.nl/klantenservice/blog/2020/02/26/coronavirus/\" id=\"coronaText\">FAQ.</a>\n" +
+        //"        Alles over je reisvoucher vind je <a class=\"coronaText\" href=\"https://www.corendon.nl/reisvoucher\" id=\"coronaText\">hier</a>.\n" +
+        //"        Lees alle maatregelen via de volgende links:\n" +
+        //"        <a class=\"coronaText\" href=\"https://www.corendon.nl/klantenservice/blog/2020/06/11/maatregelen-op-bestemming/\" id=\"coronaText\">bestemming</a>,\n" +
+        //"        <a class=\"coronaText\" href=\"https://www.corendon.nl/verantwoord-reizen\" id=\"coronaText\"> luchthaven en vlucht</a>\n" +
+        //"        <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n" +
+        //"            <span aria-hidden=\"true\">&times;</span>\n" +
+       // "        </button>\n" +
 
 
   $(".footer-wrapper").append( "<div class=\"container-fluid pb-0 mb-0 justify-content-center text-light\">\n" +

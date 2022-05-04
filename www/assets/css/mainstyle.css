@@ -3,15 +3,25 @@ body {
     font-family: arial;
 
 }
+/*quote*/
+.quote{
+border-left: 1px solid black;
+border-right: 1px solid black;
+margin: 3%;
+margin-left: 37.5%;
+width: 25%;
+text-align: center;
 
-/*Corona Melding*/
-.coronaText,.coronaText:hover{
-  color: red;
 }
-
+.h1, h1.quoteText{
+  font-family: basic,sans-serif!important;
+  font-size: 30px!important;
+  color: #000000!important;
+  word-spacing: 2px;
+}
 /*navbar*/
 .navbarHover:hover{
-  background-color: #D31010;
+  background-color: #8b8787;
   color: white ;
   text-decoration: none !important;
 
@@ -20,32 +30,50 @@ body {
   height: 100% ;
   text-align: center;
 }
-
+/*de navbar zelf
+background-color: #e4e3e3 !important;
+*/
 .navbar{
-  background-color: #F02424 !important;
+  
   padding-left: 4px;
   padding-right: 4px;
-  padding-top: 1px;
-  padding-bottom: 1px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   height: 20% !important;
-
+  background: radial-gradient(circle farthest-side, #8a8a8a, #ffffff);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-left: 25px;
+  margin-right: 25px;
 }
+/*de blokken in de navbar*/
+.nav-item{
+  background-color: #c2c2c2;
+  left: 110%;
+  position: relative;
+  min-width: 30%;
+}
+
+/* text in de navbar blokken*/
 .nav-link {
     display: block;
     padding: .9rem 1rem;
-    align: center;
-    color: white!important;
+    box-align: center;
+    color: rgb(0, 0, 0)!important;
+    text-align: center;
+    
 }
 .navbar li a {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .navbar li {
     height: auto;
     float: left;
-    border-right: 2px solid #CE0B0B;
+    outline: 1px solid #000000;
+    
 }
 .navbar li.active {
-    background-color: #D31010;
+    background-color: #8b8787;
 }
 
 /*searchbar*/
@@ -79,9 +107,9 @@ body {
 }
 /*Main Divs*/
 .container{
-  margin-top: 0px;
   width: 100%;
-
+  outline: 1px solid black;
+  margin-top: 20px;
 }
 .row{
     width: auto;
@@ -90,163 +118,149 @@ body {
 
 /*Homepage Content*/
 p.homepaginaDivTitel{
-  text-align:center;
-  font-size:150%;
+  text-align:left;
+  margin-left: 6.5%;
+  font-size:210%;
   color:black;
-  text-decoration: underline;
+  text-decoration: none;
 }
-div.homeMatches,.matchesImg,.matchesReisBekijken,.persoonInfo,.divHomeImg,.homeIntresses,.registreerHome{
-  border-radius: 4px;
+
+.homeInfo{
+ display: inline-block;
+}
+.teksten{
+  font-size: medium;
+  font: arial;
+  color: #000000;
+  line-height: 25px;
+}
+.fotoKevin{
+width: 25%;
+height: 100%;
+outline: 1px solid black;
+margin: 0% 4% 4% 4%;
+display: inline-block!important;
+}
+
+.overMij{
+  max-width: 45%;
+  display: inline-block!important;
+  margin-left: 5%;
+  margin-top: 2%;
+  vertical-align: top;
+}
+
+/*icons*/
+.socials{
+  vertical-align: top;
+  width: 25%; 
+  display: inline-block!important;
+  margin: 2% 2% 2% 2%;
+  position: relative;
+  top: 0%;
+}
+.socialsLine{
   border: 1px solid black;
-  display: inline-block;
-}
-div.homeMatches{
-  height: 400px;
-  margin:5px;
-  overflow: hidden;
-  width: 99.1%;
-}
-div.matchesImg{
-  border-radius: 0px;
-  position: static;
-  margin: 10px;
-  height: 80px;
-  width: 80px;
-  object-fit: cover
-}
-div.matchesBestemming{
-  display: inline-block;
-  position: static;
-  margin: 10px;
-  margin-right: 400px;
-  max-width: 40%;
-}
-div.matchesGroepGrootte{
-  display: inline-block;
-  position: static;
+  width: 75%;
   float: right;
-  margin-right: 40px;
-  margin-top: 10px;
+  vertical-align: top;
+  margin: 0% 0% 1% 0%;
+  
 }
-div.matchesInformatie{
-  display: inline-block;
-  position: static;
-  margin-top: 2px;
-  margin-left: 120px;
-  height: 40.5%;
-  width: 61%;
-  overflow: hidden;
-}
-div.geenMatches{
-  display: inline-block;
-  position: static;
-  margin: 10px;
 
-}
-div.matchesReisBekijken{
-  position: relative;
-  top: 8%;
-  float: left;
-  margin-left: 20px;
-  height: 40px;
-  width: 40%;
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 15px;
   text-align: center;
+  text-decoration: none;
+  float: inline-end;
 }
-div.matchesPersonen{
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.linkwiebenikTekst{
+  color: #000000;
+}
+
+.linkwiebenikTekst:hover{
+  color: #000000;
+}
+
+/*articles*/
+.articlelistDiv{
+outline: 1px solid rgb(182, 6, 6);
+margin: 2px;
+display: inline-block;
+width: 100%;
+}
+
+.article{
+margin: 1%;
+outline: 1px solid black;
+max-height: 150px;
+overflow: hidden;
+z-index: 2;
+}
+
+.articleTitle{
+position: relative;
+text-align:left;
+margin-left: 1.5%;
+font-size:130%;
+color:black;
+text-decoration: none;
+margin-bottom: 0%;
+display: inline-block;
+vertical-align: top;
+z-index: 3;
+}
+.articleTitle:hover{
+  text-align:left;
+  margin-left: 1.5%;
+  font-size:130%;
+  color:black;
+  text-decoration: none;
+  margin-bottom: 0%;
   display: inline-block;
-  position: relative;
-  margin-right: 20px;
-  top: 8%;
-  float: right;
-  height: 40px;
-  width: 30%;
-  text-align: center;
-}
-div.persoonInfo{
-  position: absolute;
-  height: 38px;
-  width: 38px;
-  border-radius: 360px;
-  overflow: hidden;
-}
-img.persoonImg {
-  display: inline;
-  margin: 0 auto;
-  height: 100%;
-  width: auto;
-}
-div.persoonInfo:hover{
-  display: inline-block;
-  position: absolute;
-  height: 38px;
-  width: 38px;
-  border-radius: 360px;
-  border: 1px solid black;
-  overflow: hidden;
-}
-div.divHomeImg{
-  height: 400px;
-  margin:5px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
-div.homeIntresses{
-  position: relative;
-  height: 396px;
-  margin-right:0 auto;
-  margin-left: 242px;
-  width: 232px;
+  vertical-align: top;
+  }
 
+.articleDescription{
+max-width: 70%;
+min-width: 70%;
+min-height: 100px;
+max-height: 100px;
+white-space: initial;
+overflow-wrap: break-word;
+word-wrap: break-word;
+hyphens: auto;
+display: flex!important;
+margin-left: 2%;
+vertical-align: baseline;
 }
-#homepageCard{
-  position: relative;
-  border: 1px solid black;
-  margin-left: 5px;
-  margin-top: -395.78px;
-  width: 14.5rem;
-  min-height: 396px;
-  max-height: 396px;
+.descriptionText{
+  text-decoration: none;
+  color: #000000;
+  
 }
-
-.card-img-top {
-    min-height: 236px;
-    max-height: 236px;
-    min-width: 230px;
-    max-width: 230px;
+.descriptionText:hover{
+  text-decoration: none;
+  color: #000000;
 }
-
-#interesseButton{
-  position: relative;
-  margin-left: 15px;
-  top: 15%
+.previewImg{
+width: 11%;
+height: 50%;
+position: relative;
+left:86.7%;
+top: -126px;
+outline: 1px solid black;
+margin: 1%;
+display: inline-block!important;
 }
-
-.card-body{
-  padding-bottom: 0.8rem;
-}
-ul.profielInfo {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 15px;
-}
-div.registreerHome{
-  position: relative;
-  height: 200px;
-  width: 460px;
-  margin: 5px;
-}
-
-#registreerBtn{
-  position: relative;
-  margin-left: 15px;
-  top: 25%
-}
-
 /*dropdown*/
 .dropdown-menu{
   min-width: 150px !important;
