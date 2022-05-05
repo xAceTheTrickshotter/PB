@@ -46,7 +46,7 @@ $(document).ready(() => {
         "                </li>\n" +
         
         "                <li class=\"nav-item navbarHover\">\n" +
-        "                    <a class=\"nav-link\" href=\"https://www.corendon.nl/\">Corendon</a>\n" +
+        "                    <a class=\"nav-link\" href=\"https://www.corendon.nl/\">Socials</a>\n" +
         "                </li>\n" +
         "            </ul>\n" +
         "\n" +
