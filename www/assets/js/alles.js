@@ -79,15 +79,16 @@ $(document).ready(() => {
               "  <div class=\"col-11\">\n" +
                   "  <div class=\"row \">\n" +
                       "  <div class=\"col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a\">\n" +
-                            "<h3 class=\"text-muted mb-md-0 mb-5 bold-text\">Corendon</h3>\n" +
+                            "<h3 class=\"text-muted mb-md-0 mb-5 bold-text\">Kevin Out</h3>\n" +
                       "  </div>\n" +
                         "<div class=\"col-xl-2 col-md-4 col-sm-4 col-12\">\n" +
-                          "  <h6 class=\"mb-3 mb-lg-4 bold-text \"><b>MENU</b></h6>\n" +
+                          "  <h6 class=\"mb-3 mb-lg-4 bold-text \"><b>Menu</b></h6>\n" +
                             "<ul class=\"list-unstyled\">\n" +
                               "  <li><a style=\"text-decoration: none; color: #627482;\"href=\"index.html\">Home</a></li>\n" +
-                                  "<li><a style=\"text-decoration: none; color: #627482;\"href=\"matchbestemming.html\">Matches</a></li>\n" +
-                                  "<li><a style=\"text-decoration: none; color: #627482;\"href=\"profoverzicht.html\">Profiel</a></li>\n" +
-                                  "<li><a style=\"text-decoration: none; color: #627482;\"href=\"interesses.html\">Interesses</a></li>\n" +
+                                  "<li><a style=\"text-decoration: none; color: #627482;\"href=\"wiebenik.html\">Wie ben ik</a></li>\n" +
+                                  "<li><a style=\"text-decoration: none; color: #627482;\"href=\"watkanik.html\">Wat kan ik</a></li>\n" +
+                                  "<li><a style=\"text-decoration: none; color: #627482;\"href=\"watwilik.html\">Wat wil ik</a></li>\n" +
+                                  "<li><a style=\"text-decoration: none; color: #627482;\"href=\"interesses.html\">Contact</a></li>\n" +
                             "</ul>\n" +
                       "  </div>\n" +
                         "<div class=\"col-xl-2 col-md-4 col-sm-4 col-12\">\n" +
@@ -98,13 +99,13 @@ $(document).ready(() => {
                     "</div>\n" +
                     "<div class=\"row \">\n" +
                         "<div class=\"col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end\">\n" +
-                          "  <p class=\"social text-muted mb-0 pb-0 bold-text\"> <span class=\"mx-2\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></span> <span class=\"mx-2\"><i class=\"fa fa-linkedin-square\" aria-hidden=\"true\"></i></span> <span class=\"mx-2\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></span>\n" +
+                          "  <p class=\"social text-muted mb-0 pb-0 bold-text\"> <span class=\"mx-2\"><a href=\"index.html\"class=\"fa fa-facebook\" style=\"text-decoration: none;\"  aria-hidden=\"true\"></a></span> <span class=\"mx-2\"><a href=\"index.html\" class=\"fa fa-linkedin-square\"style=\"text-decoration: none;\" aria-hidden=\"true\"></a></span> <span class=\"mx-2\"><a href=\"index.html\" class=\"fa fa-twitter\" style=\"text-decoration: none;\" aria-hidden=\"true\"></a></span>\n" +
                         "</div>\n" +
                       "  <div class=\"col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end \">\n" +
-                          "  <h6 class=\"mt-55 mt-2 text-muted bold-text\"><b>Gerelateerde links</b></h6><small> <span><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i></span><a  style=\"text-decoration: none; color: #627482;\"href=\"https://www.corendon.nl/\"> Corendon</a></small>\n" +
+                          "  <h6 class=\"mt-55 mt-2 text-muted bold-text\"><b>Gerelateerde links</b></h6><small> <span><i class=\"\" aria-hidden=\"true\"></i></span><a  style=\"text-decoration: none; color: #627482;\"href=\"https://www.corendon.nl/\"> iets</a></small>\n" +
                       "  </div>\n" +
                         "<div class=\"col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 \">\n" +
-                            "<h6 class=\"text-muted bold-text\"><b>Team</b></h6><small><span><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i></span> de FYSsticks</small>\n" +
+                            "<h6 class=\"text-muted bold-text\"><b>Gemaakt door:</b></h6><small><span><i  aria-hidden=\"true\"></i></span> Kevin Out</small>\n" +
                         "</div>\n" +
                   "  </div>\n" +
                 "</div>\n" +

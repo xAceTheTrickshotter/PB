@@ -298,23 +298,25 @@ max-width: 90%;
 max-height: fit-content;
 outline: 1px solid black;
 margin: 0 auto;
-display: flex!important;
 margin-top: 2%;
 margin-bottom: 2%;
 cursor: pointer;
 transition: 0.3s;
 }
 .wiebenikImg{
-max-width: 90%;
+max-width: 45%;
 height: fit-content;
 outline: 1px solid black;
-margin: 0 auto;
 margin-top: 2%;
-margin-bottom: 1%;
+margin-bottom: .5%;
+margin-left: 1%;
 cursor: pointer;
 transition: 0.3s;
+display: flex;
 float: right;
-
+}
+.wiebenikImg:hover{
+  opacity: 0.7;
 }
 .articleImg:hover{
   opacity: 0.7;
@@ -323,8 +325,8 @@ float: right;
 .articleTextDiv{
   width: 90%;
   height: fit-content;
-  margin: 0 auto;
-  vertical-align: top;
+  margin: 1px auto;
+  display: block;
 }
 
 .articleText{
@@ -355,7 +357,7 @@ float: right;
 .modal-content {
   margin: auto;
   display: block;
-  width: 80%;
+  width: 50%;
   max-width: 100%;
 }
 
