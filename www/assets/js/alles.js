@@ -28,7 +28,7 @@ $(document).ready(() => {
         "\n" +
         "        <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">\n" +
         "            <!-- Links -->\n" +
-        "            <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">\n" +
+        "            <ul class=\"navbar-nav mt-2 mt-lg-0\">\n" +
         "                 <li class=\"nav-item  navbarHover\">\n" +
         "                    <a class=\"nav-link\" href=\"index.html\">Home</a>\n" +
         "                </li>\n" +
