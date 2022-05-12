@@ -48,7 +48,8 @@ background-color: #e4e3e3 !important;
 /*de blokken in de navbar*/
 .nav-item{
   background-color: #c2c2c2;
-  left: 70%;
+  /* left: 70%; */
+  left: 110%;
   position: relative;
   min-width: 30%;
 
@@ -61,7 +62,14 @@ background-color: #e4e3e3 !important;
     box-align: center;
     color: rgb(0, 0, 0)!important;
     text-align: center;
-    
+}
+.socialsNav{
+  box-align: center!important;
+  color: #007bff!important;
+  text-align: center!important;
+  margin-left: 12%;
+  margin-top: 11%;
+  font-size: 25px!important;
 }
 .navbar li a {
     color: rgb(0, 0, 0);
@@ -174,7 +182,7 @@ display: inline-block!important;
   margin-bottom: 1%;
 }
 
-.fa {
+.faHome{
   padding: 5px;
   font-size: 30px!important;
   text-align: center;

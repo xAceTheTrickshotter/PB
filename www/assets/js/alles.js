@@ -42,11 +42,13 @@ $(document).ready(() => {
         "                    <a class=\"nav-link\" href=\"watwilik.html\">Wat wil ik</a>\n" +
         "                </li>\n" +
         "                 <li class=\"nav-item navbarHover\">\n" +
-        "                    <a class=\"nav-link\" href=\"matchbestemming.html\">Conctact</a>\n" +
+        "                    <a class=\"nav-link\" href=\"matchbestemming.html\">Overig</a>\n" +
         "                </li>\n" +
         
-        "                <li class=\"nav-item navbarHover\">\n" +
-        "                    <a class=\"nav-link\" href=\"https://www.corendon.nl/\">Socials</a>\n" +
+        "                <li class=\"nav-item\">\n" +
+        "                    <a class=\"socialsNav fa fa-facebook \" href=\"wiebenik.html\"></a>\n" +
+        "                    <a class=\"fa fa-twitter socialsNav\" href=\"watkanik.html\"></a>\n" +
+        "                    <a class=\"fa fa-instagram socialsNav\" href=\"watwilik.html\"></a>\n" +
         "                </li>\n" +
         "            </ul>\n" +
         "\n" +
