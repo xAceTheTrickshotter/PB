@@ -135,6 +135,24 @@ p.homepaginaDivTitel{
   color:black;
   text-decoration: none;
 }
+#spinnewebTXT{
+  color: #007bff;
+  text-decoration: underline;
+}
+#spinnewebTXT:hover{
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#belbinTXT{
+  color: #007bff;
+  text-decoration: underline;
+}
+#belbinTXT:hover{
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
 
 .homeInfo{
  display: inline-block;
@@ -367,10 +385,15 @@ float: right;
 .modal-content {
   margin: auto;
   display: block;
-  width: 50%;
-  max-width: 100%;
+  max-width: 60%;
+  max-height: fit-content;
 }
-
+.infoGraph{
+  margin: auto;
+  display: block;
+  max-width: fit-content;
+  height: 115%;
+}
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   margin: auto;
@@ -418,6 +441,7 @@ float: right;
     width: 100%;
   }
 }
+
 /*dropdown*/
 .dropdown-menu{
   min-width: 150px !important;

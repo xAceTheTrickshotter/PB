@@ -8,23 +8,24 @@ $(document).ready(() => {
 
         return filename;
     }
-
+    console.log("hou");
  //databbase dingen
-var userId = FYSCloud.Session.get("userId");
-      FYSCloud.API.queryDatabase("SELECT * FROM users WHERE userid = ?",
-      [userId]).done(data=> {
-        var bestemmingAantal = 2;
-        if (!data[0]["Bali"]) {
-        bestemmingAantal--
-        }
+// var userId = FYSCloud.Session.get("userId");
+//       FYSCloud.API.queryDatabase("SELECT * FROM users WHERE userid = ?",
+//       [userId]).done(data=> {
+//         var bestemmingAantal = 2;
+//         if (!data[0]["Bali"]) {
+//         bestemmingAantal--
+//         }
 
-})
+// })
+console.log("hou");
  //op de pagina
  const overMijTekst = "Hallo, Mijn naam is Kevin Out en ben 20 jaar. Ik studeer commerciële economie bij de HvA waar ik een eerstejaars ben. Ik ben erg zelfstanding en is het dan ook wel passend dat ik in mijn vrije tijd veel lees of series kijk. In de toekomst wil ik iemand zijn die erg zelfverzekerd in zijn vak is en op deze website is de weg er naar toe te zien."
 
 //De teksten op de site zetten
 $(".overMij").append ("<h1 class = teksten> " +  overMijTekst + "</h1> ");
-
+console.log("hou");
  //databse dingen
   $(document).ready(function (){
     //FYSCloud.Session.set("userId", 71); Velden testen met gegevens van Frank
@@ -41,17 +42,21 @@ $(".overMij").append ("<h1 class = teksten> " +  overMijTekst + "</h1> ");
 })
 
 
-
+console.log("hou")
 
 // Get the modal
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("myModal")
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
+var img = document.getElementById("myImg")
+var spinneTXT = document.getElementById("spinnewebTXT");
+var belbinTXT = document.getElementById("belbinTXT");
+var modalImg = document.getElementById("img01")
+
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
+  console.log("hou");
 }
 modal.onclick = function(){
   modal.style.display = "none";
@@ -63,6 +68,47 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+
+
+
+
+spinneTXT.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = "assets/img/spinneweb.png";
+}
+
+modal.onclick = function(){
+  modal.style.display = "none";
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+
+
+
+belbinTXT.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = "assets/img/belbinVol.png";
+}
+modal.onclick = function(){
+  modal.style.display = "none";
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+
 
 
 
