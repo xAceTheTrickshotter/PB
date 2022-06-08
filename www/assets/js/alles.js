@@ -42,7 +42,7 @@ $(document).ready(() => {
         "                    <a class=\"nav-link\" href=\"watwilik.html\">Wat wil ik</a>\n" +
         "                </li>\n" +
         "                 <li class=\"nav-item navbarHover\">\n" +
-        "                    <a class=\"nav-link\" href=\"matchbestemming.html\">Overig</a>\n" +
+        "                    <a class=\"nav-link\" href=\"overig.html\">Overig</a>\n" +
         "                </li>\n" +
         
         "                <li class=\"nav-item\">\n" +

@@ -21,10 +21,10 @@ $(document).ready(() => {
 // })
 console.log("hou");
  //op de pagina
- const overMijTekst = "Hallo, Mijn naam is Kevin Out en ben 20 jaar. Ik studeer commerciële economie bij de HvA waar ik een eerstejaars ben. Ik ben erg zelfstanding en is het dan ook wel passend dat ik in mijn vrije tijd veel lees of series kijk. In de toekomst wil ik iemand zijn die erg zelfverzekerd in zijn vak is en op deze website is de weg er naar toe te zien."
-
+ const overMijTekst = "Mijn naam is Kevin Out, Studentennummer: 500860903, en ben 20 jaar. Ik studeer commerciële economie bij de HvA waar ik een eerstejaars ben. Ik ben erg zelfstanding en is het dan ook wel passend dat ik in mijn vrije tijd veel lees of series kijk. In de toekomst wil ik iemand zijn die erg zelfverzekerd in zijn vak is, en op deze website is de weg er naar toe te zien."
+const kernzin = "\"Kevin Out, iemand die doelgericht te werk gaat en goed overweg kan met het oplossen van problemen. Een zelfstandige werker maar staat altijd open om iemand te helpen.\""
 //De teksten op de site zetten
-$(".overMij").append ("<h1 class = teksten> " +  overMijTekst + "</h1> ");
+$(".overMij").append ("<h1 class = teksten> " +  overMijTekst + "</h1> " + "<h1 class = teksten> " +  kernzin + "</h1> ");
 console.log("hou");
  //databse dingen
   $(document).ready(function (){
